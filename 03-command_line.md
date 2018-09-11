@@ -20,7 +20,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 1. **pwd [NAME]** - shows the current working directory path
+    2. **mkdir [NAME]** - creates a directory
+    3. **rm -rf [NAME]** *or* **rmdir [NAME] (only if empty)** - deletes the directory. The -r option is recursive and allows all subfiles and subdirectories to be deleted as well. The -f option is to force this potentially dangerous option through.
+    4. **touch [NAME]** - this command creates a new file
+    5. **rm [NAME]** - this command deletes a file
+    6. **mv [OLDNAME] [NEWNAME}** - this command in effect renames files
+    7. **ls -a** - this command shows all files, including hidden ones
+    8. **cp [OLDFILE] [NEWFILEPATH] - this command copies a file
+    9. **head [NAME]** - this command shows the first 10 lines (can be changed) of a file
+    10. **tac [NAME]** - this command reads a file's lines in reverse older. Just for fun!
+
 
 ---
 
@@ -35,7 +45,7 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
 
 ---
 
