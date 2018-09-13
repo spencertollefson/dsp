@@ -55,12 +55,19 @@ What do the following commands do:
 `ls -Glp`  
 
 > > `ls` This command lists the contents of the current directory. However it keeps things simple.
+
     `ls -a` Lists all the contents, including hidden files.
+
     `ls -l` Long list format. Includes additional info like read/write/executable permissions, owner, group, file size, and more.
+
     `ls -lh` Long list and human readable format. Human readable shows file sizes in KB, MB, and GB instead of only bytes
+
     `ls -lah` Long list, all files (hiden too), and human readable file size listing.
+
     `ls -t` sort by modification time, with the newest being printed first
+
     `ls -Glp` remove Group permissions from the long listing, and append the indicator backslash / to directories
+
 
 ---
 
@@ -68,10 +75,14 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > `kill` - this command can be folloewd by PID to kill a process
+> > `kill` - this command can be followed by PID to kill a process
+
     `chmod` - this command allows one to change permissions. Useful for allowing script files to be run more simply.
+
     `man` - I've been using this command this whole assignment to look up the manual for different commands
+
     `whoami` - reminds me who I am everytime I forget
+
     `grep` - I want to get much better with this command. Is able to search through file(s) for strings. Can be combined with regex for powerful seraches.
 
 ---
@@ -80,9 +91,9 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > Xargs is a bit difficult to wrap your head around as it doesn't read input from other CLI arguments. Rather, it reads in data from STDIN and executes the command one or more times. The one or more times is key, is that is where xargs really shines.
+Xargs is a bit difficult to wrap your head around as it doesn't read input from other CLI arguments. Rather, it reads in data from STDIN and executes the command one or more times. The one or more times is key, is that is where xargs really shines.
 
-An example is `xargs -n 1 find -name ".jpeg" ".png"`. This '-n' option tells xargs how many arguments you want to pass to the command per line. So in this case, one argument is passed for every find optoin. Thus, xargs allows this find to search every file for either ".jpeg" or ".png" and keeps them separate.
+> > An example is `xargs -n 1 find -name ".jpeg" ".png"`. This '-n' option tells xargs how many arguments you want to pass to the command per line. So in this case, one argument is passed for every find optoin. Thus, xargs allows this find to search every file for either ".jpeg" or ".png" and keeps them separate.
 
  
 
