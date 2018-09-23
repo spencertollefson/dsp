@@ -78,7 +78,7 @@ This questions asks you to examine the function that produces random numbers.  I
 ### Q4. [Think Stats Chapter 5 Exercise 1](statistics/5-1-blue_men.md) (normal distribution of blue men)
 This is a classic example of hypothesis testing using the normal distribution.  The effect size used here is the Z-statistic. 
 
-
+---
 
 ### Q5. Bayesian (Elvis Presley twin) 
 
@@ -86,14 +86,35 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+
+>>
+##### SOLUTION: Bayes' Theorem
+
+Bayes' Theorem is an important tool in understanding what we really know, given evidence of other information we have, in a quantitative way. It helps incorporate conditional probabilities into our conclusions.
+
+Elvis Presley had a twin brother who died at birth. What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.
+
+```
+# P(A | B) =( P(B | A) * P(A) ) / P(B)
+
+#P (Identical | Twin) = ) P( Twin | Identical) * P( Identical) ) / P (Twin)
+
+p = (1 * (1/300)) / (1/125)
+print(p)
+```
+##### The probability Elvis twin was identical, using Bayes' Theorem, is about 41.667%
+
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> In a simplified manner, frequentist statistics use a pre-established model sometimes combined with some sort
+>> of procedure to calculate a probability.
+>>
+>> Bayesian statistics use the same, but also includes prior knowledge / history of the situation. It includes
+>> potentially related knowledge of the situation to help "refine" the calculate of probability for an event.
 
 ---
 
