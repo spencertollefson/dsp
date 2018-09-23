@@ -115,6 +115,7 @@ How do frequentist and Bayesian statistics compare?
 >>
 >> Bayesian statistics use the same, but also includes prior knowledge / history of the situation. It includes
 >> potentially related knowledge of the situation to help "refine" the calculate of probability for an event.
+>> Bayesian models are continually updated as new information is collected.
 
 ---
 
